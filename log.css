@@ -1,0 +1,22 @@
+h1{
+  color: black;
+  font-size: 100sp;
+  font-family: Times;
+
+}
+p{
+  align-items: flex-end;
+  color: red;
+}
+footer{
+  text-align: right;
+}
+form{
+  align-items: center;
+  text-decoration-color: white;
+}
+body{
+
+  background-color: pink;
+  backface-visibility: hidden;
+}
