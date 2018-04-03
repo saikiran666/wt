@@ -5,8 +5,6 @@ function logn(){
     alert(" all fields must be entered");
   }
   else {
-    if(ps=="saikiran666" && us=="devil123"){
-      window.location.href="main.html";
-    }
+    window.location.href="main.html";
   }
 }

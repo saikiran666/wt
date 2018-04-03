@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>REGISTER</title>
+
+  
+<link rel="stylesheet" href="reg.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<script language="JavaScript">
+function checkSize()
+{
+    im = new Image();
+    im.src = document.Upload.submitfile.value;
+if(!im.src)
+    im.src = document.getElementById('submitfile').value;
+    alert("license uploaded successfully");
+    window.location.replace('thnks.html');
+
+
+}
+</script>
+  <center>
+  <h1> Upload your valid licence  </h1><br>
+<div class="card">
+<div class="container">
+<form name="Upload" action="#" enctype="multipart/form-data" method="post">
+   <p>Filename: <input type="file" name="submitfile" id="submitfile" />
+   <input type="button" value="Send" onClick="checkSize();" />
+ </div></div>
+     <center>
+
+</form>
+</body>
+</html>
